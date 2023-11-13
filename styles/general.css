@@ -1,0 +1,595 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+}
+.head-container
+{
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.child-container
+{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+/* Header style */
+
+
+.child-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.child-header .logotip img
+{
+    width: 190px;
+    height: 48px;
+}
+.child-header nav ul
+{
+    display: flex;
+    gap: 40px;
+}
+.child-header nav ul a
+{
+    color: var(--1, #1F2428);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 106.667% */
+
+    transition: all 0.4s;
+}
+.child-header nav ul a:hover
+{
+    color: #40B8EA;
+}
+.child-header .registration 
+{
+    display: flex;
+    align-items: center;
+}
+.child-header .registration img
+{
+    width: 28px;
+    height: 28px;
+}
+.child-header .registration a
+{
+    color: var(--1, #1F2428);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 106.667% */
+}
+.child-header .registration .button-a button
+{
+    width: 170px;
+    height: 48px;
+    padding: 15px 0px;
+    margin-left: 42px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 138.462% */
+}
+.child-header .registration .button-a button:hover
+{
+     background: linear-gradient(90deg, #076642 0%, #044e31 96.96%);
+}
+
+/* main styles */
+.head-main
+{
+    border-radius: 36px;
+    background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+    margin-top: 36px;
+    height: 680px;
+}
+
+.child-main
+{
+    display: flex;
+}
+.child-main .main-title h1
+{
+    color: var(--4, #FFF);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 111.111% */
+
+    padding-top: 96px;
+    margin-bottom: 8px;
+}
+.child-main .main-title p
+{
+    width: 707px;
+    color: var(--4, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px; /* 210% */
+    opacity: 0.5;
+    margin-bottom: 36px;
+}
+.child-main .main-title button
+{
+    width: 260px;
+    height: 66px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    padding: 24px;
+    border: none;
+
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+
+    cursor: pointer;
+}
+
+.child-main .main-img img
+{
+    width: 572px;
+    height: 571px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+/* purchase styles */
+
+.purchase
+{
+    margin-top: 160px;
+    margin-bottom: 54px;
+}
+
+.purchase .purchase-title h2
+{
+    width: 477px;
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 113.636% */
+}
+
+.purchase .departments .select-departments
+{
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    gap: 0px;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+.purchase .departments .select-departments button
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.purchase .departments .select-departments .icon
+{
+    display: inline-block;
+    width: 30%;
+}
+.purchase .departments .select-departments button:hover
+{
+    background: var(--6, #F2F6FC);
+}
+
+/* jacked styles */
+
+
+.jacked
+{
+    display: flex;
+}
+
+.jacked .jacked__text h2
+{
+    color: var(--1, #1F2428);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    margin-top: 80px;
+}
+
+.jacked .jacked__text .jacked__price
+{
+    margin-top: 44px;
+    width: 400px;
+    height: 120px;
+    border-radius: 16px;
+    background: #F2F6FC;
+    padding: 34px 34px;
+    display: flex;
+    gap: 28px;
+    margin-bottom: 160px;
+    cursor: pointer;
+}
+
+.jacked .jacked__text .jacked__price:hover
+{
+    background-color: #b4cff9;
+}
+.jacked .jacked__text .jacked__price p
+{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.jacked .jacked__text .jacked__price b
+{
+    color: var(--1, #1F2428);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+}
+.jacked .jacked__text .tshirt-img
+{
+    display: flex;
+    gap: 45px;
+}
+
+
+.jacked .jacked__img p
+{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+    margin-left: 120px;
+}
+
+.jacked .jacked__img b
+{   
+    color: var(--1, #1F2428); 
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    margin-left: 100px;
+}
+.jacked .jacked__img b span
+{
+    color: var(--7, #01CD7D);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+/*  */
+
+
+.jacked .jacked__tex h2
+{
+    color: var(--1, #1F2428);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.jacked .jacked__tex .jacked__price
+{
+    margin-top: 44px;
+    width: 400px;
+    height: 120px;
+    border-radius: 16px;
+    background: #F2F6FC;
+    padding: 34px 34px;
+    display: flex;
+    gap: 28px;
+    margin-bottom: 160px;
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+.jacked .jacked__tex .jacked__price:hover
+{
+    background-color: #b4cff9;
+}
+.jacked .jacked__tex .jacked__price p
+{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+
+.jacked .jacked__tex .jacked__price b
+{
+    color: var(--1, #1F2428);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+}
+.jacked .jacked__tex .tshirt-img
+{
+    display: flex;
+    gap: 45px;
+    margin-left: 300px;
+}
+
+
+
+/* economy styles */
+
+
+.economy
+{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.economy .box
+{
+    display: flex;
+    align-items: center;
+    padding: 53px 71px;
+    gap: 36px;
+    cursor: pointer;
+}
+
+.economy span
+{
+    width: 1px;
+    height: 135px;
+    background-color: black;
+}
+
+
+/* laptops styles */
+
+.laptops
+{
+    border-radius: 36px;
+    background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);    
+    margin-top: 160px;
+
+    display: flex;
+    padding-top: 38px;
+    padding-left: 200px;
+}
+.laptops .laptops__img img
+{
+    width: 401px;
+    height: 404px;
+}
+.laptops .laptops__text{
+    margin-left: 75px;
+    margin-top: 111px;
+}
+
+.laptops .laptops__text p
+{
+    width: 763px;
+    color: var(--4, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+    margin-bottom: 11px;
+}
+.laptops .laptops__text span
+{
+    color: var(--4, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+
+.laptops .laptops__text button
+{
+    display: block;
+    padding: 20px 40px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    border: none;
+    margin-top: 30px;
+    color: var(--1, #FFF);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+}
+
+/* dastavka styles */
+
+.dastavka
+{
+    margin-top: 160px;
+    width: 1400px;
+    height: 270px;
+   
+}
+.dastavka .dastavka__title h2
+{
+    display: inline-block;
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    width: 954px;
+    line-height: 56px; /* 127.273% */
+    margin-bottom: 20px;
+}
+
+.dastavka .dastavka__title p
+{
+    color: var(--1, #1F2428);
+    font-size: 20px;
+    width: 760px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 180% */
+}
+
+.dastavka .input-group
+{
+    width: 1400px;
+    height: 270px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.dastavka .input-group .name-group
+{   
+    display: flex;
+}
+.dastavka .input-group h5
+{
+    display: inline;
+    padding-top: 45px;
+    color: var(--2, #222);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+    width: 247px;
+    margin-bottom: 13px;
+}
+.dastavka .input-group form label .icon
+{
+    font-size: 26px;
+    position: absolute;
+    z-index: 10;  
+    margin-top: 10px;  
+}
+input:focus
+{
+    outline: none;
+}
+.dastavka .input-group form  label input
+{
+    border: none;
+    width: 246px;
+    border-bottom: 1px solid #222;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 30px;
+    height: 40px;
+}
+
+.dastavka .input-group button
+{
+    margin-top: 32px;
+    border: none;
+    width: 240px;
+    height: 66px;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    cursor: pointer;
+
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
